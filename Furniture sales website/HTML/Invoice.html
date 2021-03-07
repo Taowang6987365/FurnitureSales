@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="../CSS/Invoice.css">
+    <script src="../JS/Invoice.js"></script>
+</head>
+<body>
+    <header>
+        <div id = "container">
+            <ul>
+                <li><a href="../HTML/HomePage.html">Logout</a></li>
+                <li><a href="../HTML/Invoice.html">Invoice</a></li>
+                <li><a href="../HTML/BedroomShopping.html">Shopping</a></li>
+                <li><a href="../HTML/LivingRoom.html">Living Room</a></li>
+                <li><a href="../HTML/Bedroom.html">Bedroom</a></li>
+                <li><a href="../HTML/Welcome.html">Welcome</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id = "image">
+        <table id = "invoiceTab" class = "tab">
+            <tr>
+                <th>Product Name<hr></th>
+                <th>Price<hr></th>
+                <th>Quantity<hr></th>
+                <th>Totals<hr></th>
+            </tr>
+            
+        </table>
+        <table class="tab" id = "totalPrice">
+            <tr>
+                <hr width="80%">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id = "payment">
+                    
+                </td>
+            </tr>
+
+        </table>
+
+
+        <div id = "payment">
+            <div id = "creditInfo" class = "box">
+                <h2>Credit Card Info</h2>
+                <form>
+                    <div>
+                        <p>*Card Number</p>
+                        <input type="text" name = "CardNumber" class = "inputValue">
+                    </div>
+
+                    <div>
+                        <p>* CVC</p>
+                        <input type="text" name="CVC" class = "inputValue">
+                    </div>
+
+                    <div>
+                        <p>*Name on the Card</p>
+                        <input type="text" name="CardName" class = "inputValue">
+                    </div>
+
+                    <div>
+                        <p>*Expiration</p>
+                        <input type="text" name="Expiration" 
+                        placeholder="MM/YY" class = "inputValue">
+                    </div>
+
+                    <div>
+                        <input type="button" value="Clear" id = "clear">
+                    </div>
+
+                    <div>
+                        <p>Total Purchase</p>
+                        <input type="text" disabled id = "showPrice">
+                    </div>
+
+                    <div>
+                        <p>show terms</p>
+                        <input type="checkbox"  name="term">
+                        <label for="term">*Agree terms and Conditions</label>
+                    </div>
+
+                    <div>
+                        <input type="button" value = "order" name="" id="order">
+                    </div>
+    
+                </form>
+            </div>
+    
+            <div id = "address" class = "box">
+                <h2>Shipping Address</h2>
+                <div>
+                    <p>*Name</p>
+                    <input type="text" name="Name" class = "inputValue">
+                </div>
+
+                <div>
+                    <p>*Adress</p>
+                    <input type="text" name="Address" class = "inputValue">
+                </div>
+
+                <div>
+                    <p>Address Line2</p>
+                    <input type="text" name="OtherAddress" id="">
+                </div>
+
+                <div>
+                    <p>*City</p>
+                    <input type="text" name="City" class = "inputValue">
+                </div>
+
+                <div>
+                    <p>*Postal Code</p>
+                    <input type="text" name="PostalCode" class = "inputValue">
+                </div>
+
+                <div>
+                    <p>*Province</p>
+                    <input type="text" name="Province" class = "inputValue">
+                </div>
+
+                <div>
+                    <p>Country</p>
+                    <input type="text" name="Country" id="">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div id = "bot">
+            <div class = "column">
+               <a href="https://www.google.com/"><img src="../IMG/Google.png" alt=""></a> 
+            </div>
+            <div class = "column">
+                <a href="https://www.facebook.com/"><img src="../IMG/facebook.png" alt=""></a>
+            </div>
+            <div class = "column">
+                <a href="https://www.skype.com/en/"><img src="../IMG/skype.png" alt=""></a>
+            </div>
+            <div class = "column">
+                <a href="https://www.instagram.com/"><img src="../IMG/instagram.png" alt=""></a>
+            </div>
+        </div>
+  
+    </footer>
+
+</body>
+</html>

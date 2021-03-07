@@ -1,0 +1,93 @@
+body{
+    background-image: url('../IMG/BackGound.jpg');
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: 100%;
+}
+#title{
+   margin-top: 100px;
+   text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+ul  {
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+#DS{
+    border-radius: 10PX;
+}
+
+.bedimg{
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    box-sizing:border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+footer{
+    margin-top: 10%;
+    padding-top: 2em;
+    padding-bottom:5em;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.column{
+    float: left;
+    padding-left: 18%;    
+    width: 15%;
+    box-sizing:border-box;
+}
+
+.infomation{
+    color:white;
+    font-weight: bolder;
+    font-size: large;
+    float: left;
+    text-align: left;
+ }
+
+
+ input[type=submit] {
+    width: 80.5%;  height: 2em;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom:20px;
+    height: 60px;
+}
+
+input[type=text]{
+    width: 80%;  height: 2em;
+    border-radius: 5px;
+    margin-bottom: 40px;
+} 
+
+input[type=submit]:hover{
+    background-color: gray;
+}
+
+
+#checkout{
+    padding-top: 100%;
+    text-align: center;
+}
+
+
+input[type=button]{
+    width: 80%;  height: 2em;
+    border-radius: 5px;
+    margin-bottom: 40px;
+} 
+
+input[type = button]:hover{
+    background-color: gray;
+}

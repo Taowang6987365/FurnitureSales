@@ -1,0 +1,73 @@
+body{
+    background-color:bisque;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    margin-top:20px;
+}
+#container{
+    background-size: 100%;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+#image{
+    background-image: url('../IMG/BackGound.jpg');
+    padding: 25%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#image h1{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+}
+
+#image p{
+    color:white;
+    font-size: 30px;
+}
+
+#text{
+    margin-top: -350px;
+}
+
+
+ul  {
+    margin: auto;
+    padding-bottom: 45px;
+}
+
+#container li{
+    font-size: x-large;
+    list-style-type: none;
+    float: right;
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    color: grey;
+}
+
+#DS{
+    border-radius: 10PX;
+}
+
+footer{
+    padding-top: 2em;
+    padding-bottom:5em;
+    background-color: bisque;
+    border-radius: 10px;
+}
+ .column{
+    text-align: center;
+    float: left;
+    width: 25%;
+    box-sizing:border-box;
+ }
